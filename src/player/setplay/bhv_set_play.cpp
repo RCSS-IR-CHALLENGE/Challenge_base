@@ -437,7 +437,7 @@ Bhv_SetPlay::is_kicker( const PlayerAgent * agent )
     double min_dist2 = std::numeric_limits< double >::max();
     int second_kicker_unum = 0;
     double second_min_dist2 = std::numeric_limits< double >::max();
-    for ( int unum = 1; unum <= 11; ++unum )
+    for ( int unum = 1; unum <= 3; ++unum )
     {
         if ( unum == wm.ourGoalieUnum() ) continue;
 

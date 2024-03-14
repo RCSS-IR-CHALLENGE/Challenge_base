@@ -56,6 +56,9 @@ using namespace rcsc;
  */
 bool Bhv_BasicOffensiveKick::execute(PlayerAgent *agent)
 {
+    Body_SmartKick(Vector2D(-ServerParam::i().pitchHalfLength(), 10), 2.5 , 3, 2).execute(agent);
+    return true;
+
     dlog.addText(Logger::TEAM,
                  __FILE__ ": Bhv_BasicOffensiveKick");
 
