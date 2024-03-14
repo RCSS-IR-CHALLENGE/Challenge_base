@@ -111,7 +111,7 @@ Vector2D Strategy::getHomePosition(const rcsc::WorldModel &wm, int self_unum)
                   ball_step );
 
     std::vector<Vector2D> positions(4);
-    double min_x_rectengle[4]={0,-22.5,-22.5,-22.5};
+    double min_x_rectengle[4]={0,-20,-22.5,-22.5};
     double max_x_rectengle[4]={0,-18.0,-19,-19};
     double min_y_rectengle[4]={0,-2,-13,-2};
     double max_y_rectengle[4]={0,+2, 2, 13};

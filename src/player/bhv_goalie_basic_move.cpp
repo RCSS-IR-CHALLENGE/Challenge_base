@@ -36,7 +36,7 @@
 #endif
 
 #include "bhv_goalie_basic_move.h"
-
+#include "strategy.h"
 #include "bhv_basic_tackle.h"
 
 // #include <rcsc/action/basic_actions.h>
@@ -107,7 +107,8 @@ Bhv_GoalieBasicMove::execute( PlayerAgent * agent )
 Vector2D
 Bhv_GoalieBasicMove::getTargetPoint( PlayerAgent * agent )
 {
-    const double base_move_x = -49.8;
+    return Strategy().getHomePosition(agent->world(), agent->world().self().unum());
+    /*const double base_move_x = -49.8;
     const double danger_move_x = -51.5;
     const WorldModel & wm = agent->world();
 
@@ -219,5 +220,5 @@ Bhv_GoalieBasicMove::getTargetPoint( PlayerAgent * agent )
         }
 
         return Vector2D( base_move_x, move_y );
-    }
+    }*/
 }
