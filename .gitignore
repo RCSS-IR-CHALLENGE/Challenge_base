@@ -1,0 +1,11 @@
+build/
+keepaway.sh
+sample_coach
+sample_player
+sample_trainer
+start.sh
+train.sh
+
+build/
+
+binary/
