@@ -56,10 +56,7 @@ using namespace rcsc;
 bool
 RoleGoalie::execute( PlayerAgent * agent )
 {
-    static const Rect2D our_penalty( Vector2D( -ServerParam::i().pitchHalfLength(),
-                                               -ServerParam::i().penaltyAreaHalfWidth() + 1.0 ),
-                                     Size2D( ServerParam::i().penaltyAreaLength() - 1.0,
-                                             ServerParam::i().penaltyAreaWidth() - 2.0 ) );
+    static const Circle2D our_penalty( Vector2D(-22.5,0), 9);
 
     //////////////////////////////////////////////////////////////
     // play_on play
