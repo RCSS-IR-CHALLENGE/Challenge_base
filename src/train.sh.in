@@ -22,7 +22,7 @@ host="localhost"
 config="${DIR}/player.conf"
 config_dir="${DIR}/formations-train"
 
-number=11
+number=3
 usecoach="true"
 
 sleepprog=sleep
