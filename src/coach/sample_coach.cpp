@@ -38,7 +38,7 @@
 #include <rcsc/common/abstract_client.h>
 #include <rcsc/common/logger.h>
 #include <rcsc/common/player_param.h>
-#include <rcsc/common/server_param.h>
+#include "./../player/server_param.h"
 #include <rcsc/common/player_type.h>
 #include <rcsc/common/audio_memory.h>
 #include <rcsc/common/say_message_parser.h>

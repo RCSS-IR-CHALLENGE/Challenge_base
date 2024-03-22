@@ -59,6 +59,7 @@ add_executable(sample_player
   main_player.cpp
   role_goalie.cpp
   role_player.cpp
+  server_param.cpp
   )
 
 
