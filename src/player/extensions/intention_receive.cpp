@@ -42,7 +42,7 @@
 #include <rcsc/player/debug_client.h>
 
 #include <rcsc/common/logger.h>
-#include <rcsc/common/server_param.h>
+#include "./../server_param.h"
 
 #include "neck_default_intercept_neck.h"
 #include "neck_offensive_intercept_neck.h"

@@ -36,7 +36,7 @@
 #include <rcsc/player/player_agent.h>
 #include <rcsc/player/intercept_table.h>
 
-#include <rcsc/common/server_param.h>
+#include "./../server_param.h"
 #include <rcsc/common/logger.h>
 
 using namespace rcsc;

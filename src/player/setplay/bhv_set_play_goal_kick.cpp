@@ -54,7 +54,7 @@
 #include <rcsc/player/intercept_table.h>
 
 #include <rcsc/common/logger.h>
-#include <rcsc/common/server_param.h>
+#include "./../server_param.h"
 
 #include <rcsc/geom/rect_2d.h>
 

@@ -52,7 +52,7 @@
 
 #include <rcsc/common/audio_memory.h>
 #include <rcsc/common/logger.h>
-#include <rcsc/common/server_param.h>
+#include "./../server_param.h"
 #include <rcsc/geom/circle_2d.h>
 #include <rcsc/geom/line_2d.h>
 #include <rcsc/geom/segment_2d.h>

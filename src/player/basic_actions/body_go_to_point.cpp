@@ -40,7 +40,7 @@
 
 #include <rcsc/player/player_agent.h>
 #include <rcsc/common/logger.h>
-#include <rcsc/common/server_param.h>
+#include "./../server_param.h"
 #include <rcsc/geom/circle_2d.h>
 #include <rcsc/geom/segment_2d.h>
 #include <rcsc/geom/matrix_2d.h>

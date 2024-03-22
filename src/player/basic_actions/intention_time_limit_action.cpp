@@ -38,7 +38,7 @@
 #include <rcsc/player/player_agent.h>
 #include <rcsc/player/soccer_action.h>
 #include <rcsc/common/logger.h>
-#include <rcsc/common/server_param.h>
+#include "./../server_param.h"
 
 using namespace rcsc;
 

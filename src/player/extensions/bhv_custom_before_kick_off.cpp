@@ -34,7 +34,7 @@
 #include "basic_actions/neck_turn_to_relative.h"
 
 #include <rcsc/player/player_agent.h>
-#include <rcsc/common/server_param.h>
+#include "./../server_param.h"
 #include <rcsc/common/logger.h>
 
 using namespace rcsc;

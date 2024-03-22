@@ -33,7 +33,7 @@
 
 #include <rcsc/player/intercept_table.h>
 #include <rcsc/player/world_model.h>
-#include <rcsc/common/server_param.h>
+#include "./../server_param.h"
 #include <rcsc/common/logger.h>
 
 #include <iostream>
