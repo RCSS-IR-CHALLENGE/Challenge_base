@@ -36,7 +36,7 @@ config_dir="${DIR}/formations-dt"
 coach_conf="${DIR}/coach.conf"
 team_graphic="--use_team_graphic off"
 
-number=11
+number=3
 usecoach="true"
 
 unum=0
@@ -366,7 +366,7 @@ if [ "${usecoach}" = "true" ]; then
     offline_mode="--offline_client_mode"
     if [ $unum -eq 0 ]; then
       $coach ${coachopt} ${offline_mode} &
-    elif [ $unum -eq 12 ]; then
+    elif [ $unum -eq 4 ]; then
       $coach ${coachopt} ${offline_mode} &
     fi
   else
