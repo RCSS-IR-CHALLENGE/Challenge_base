@@ -78,7 +78,7 @@ bool Bhv_BasicOffensiveKick::execute(PlayerAgent *agent)
     //                                       ? nearest_opp->pos()
     //                                       : Vector2D( -1000.0, 0.0 ) );
 
-    if (nearest_opp_dist < 10)
+    if (nearest_opp_dist < 5)
     {
         if (pass(agent))
             return true;
