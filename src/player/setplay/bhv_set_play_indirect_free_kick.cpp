@@ -50,7 +50,7 @@
 #include <rcsc/player/say_message_builder.h>
 
 #include <rcsc/common/logger.h>
-#include "./../server_param.h"
+#include <rcsc/common/server_param.h>
 #include <rcsc/geom/circle_2d.h>
 #include <rcsc/math_util.h>
 

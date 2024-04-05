@@ -43,7 +43,7 @@
 #include <rcsc/player/debug_client.h>
 
 #include <rcsc/common/logger.h>
-#include "./../server_param.h"
+#include <rcsc/common/server_param.h>
 #include <rcsc/geom/rect_2d.h>
 #include <rcsc/geom/line_2d.h>
 

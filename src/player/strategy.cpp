@@ -39,7 +39,7 @@
 #include <rcsc/player/world_model.h>
 
 #include <rcsc/common/logger.h>
-#include "server_param.h"
+#include <rcsc/common/server_param.h>
 #include <rcsc/param/cmd_line_parser.h>
 #include <rcsc/param/param_map.h>
 #include <rcsc/game_mode.h>

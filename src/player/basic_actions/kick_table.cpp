@@ -40,7 +40,7 @@
 #include <rcsc/geom/circle_2d.h>
 #include <rcsc/geom/rect_2d.h>
 #include <rcsc/common/logger.h>
-#include "./../server_param.h"
+#include <rcsc/common/server_param.h>
 #include <rcsc/common/player_param.h>
 #include <rcsc/common/player_type.h>
 #include <rcsc/game_time.h>

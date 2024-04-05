@@ -42,7 +42,7 @@
 
 #include <rcsc/player/player_agent.h>
 #include <rcsc/common/logger.h>
-#include "./../server_param.h"
+#include <rcsc/common/server_param.h>
 #include <rcsc/geom/circle_2d.h>
 #include <rcsc/geom/ray_2d.h>
 

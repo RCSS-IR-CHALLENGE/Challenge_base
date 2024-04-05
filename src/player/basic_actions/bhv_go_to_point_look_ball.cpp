@@ -39,7 +39,7 @@
 #include "body_go_to_point.h"
 
 #include <rcsc/player/player_agent.h>
-#include "./../server_param.h"
+#include <rcsc/common/server_param.h>
 #include <rcsc/math_util.h>
 
 using namespace rcsc;

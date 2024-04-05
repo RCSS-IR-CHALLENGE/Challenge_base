@@ -45,7 +45,7 @@
 #include <rcsc/player/intercept_table.h>
 
 #include <rcsc/common/logger.h>
-#include "server_param.h"
+#include <rcsc/common/server_param.h>
 
 #include "extensions/neck_offensive_intercept_neck.h"
 

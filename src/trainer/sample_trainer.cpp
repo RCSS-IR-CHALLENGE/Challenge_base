@@ -36,7 +36,7 @@
 #include <rcsc/common/abstract_client.h>
 #include <rcsc/common/player_param.h>
 #include <rcsc/common/player_type.h>
-#include "./../player/server_param.h"
+#include <rcsc/common/server_param.h>
 #include <rcsc/param/param_map.h>
 #include <rcsc/param/cmd_line_parser.h>
 #include <rcsc/random.h>

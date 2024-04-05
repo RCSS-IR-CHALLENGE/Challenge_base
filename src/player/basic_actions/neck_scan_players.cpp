@@ -41,7 +41,7 @@
 #include <rcsc/player/player_agent.h>
 #include <rcsc/player/intercept_table.h>
 #include <rcsc/player/view_mode.h>
-#include "./../server_param.h"
+#include <rcsc/common/server_param.h>
 #include <rcsc/common/logger.h>
 #include <rcsc/geom/rect_2d.h>
 #include <rcsc/geom/angle_deg.h>
