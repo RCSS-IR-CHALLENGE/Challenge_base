@@ -226,20 +226,10 @@ void SamplePlayer::actionImpl()
 
     if (this->world().gameMode().type() == GameMode::PlayOn)
     {
-        if (this->world().self().goalie())
-        {
-            dlog.addText(Logger::TEAM,
-                         __FILE__ ": goalie");
-            RoleGoalie().execute(this);
-            return;
-        }
-        else
-        {
-            dlog.addText(Logger::TEAM,
-                         __FILE__ ": player");
-            RolePlayer().execute(this);
-            return;
-        }
+        dlog.addText(Logger::TEAM,
+                     __FILE__ ": player");
+        RolePlayer().execute(this);
+        return;
     }
 
     //
@@ -464,7 +454,6 @@ bool SamplePlayer::doPreprocess()
     // ball search
     // check queued intention
     // check simultaneous kick
-
     const WorldModel &wm = this->world();
 
     dlog.addText(Logger::TEAM,

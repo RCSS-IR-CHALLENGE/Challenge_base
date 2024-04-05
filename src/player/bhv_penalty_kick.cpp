@@ -924,7 +924,6 @@ Bhv_PenaltyKick::doGoalie( PlayerAgent* agent )
     {
         dlog.addText( Logger::TEAM,
                       __FILE__": goalie try to catch" );
-        return agent->doCatch();
     }
 
     if ( wm.self().isKickable() )
